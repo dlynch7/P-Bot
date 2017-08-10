@@ -14,3 +14,5 @@ In this project, I'm building a robot and using an FPGA for some of the processi
 
 ## 2. Hexapod mechanical design
 Based on the static analysis [here](http://www.robotshop.com/blog/en/robot-leg-torque-tutorial-3587), I wrote a simple [MATLAB/Octave program](/Hardware/torque_calc.m) to calculate the torque required per servo for quasi-static motion, given the masses and lengths of the robot's legs and torso.
+
+Currently, I am thinking of using the EMAX ES08MA II Mini Metal Gear Analog servo.
