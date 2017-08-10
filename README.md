@@ -2,8 +2,8 @@
 Repo for FPGA-based robot project. What can parallelism do for mobile robots?
 
 ## Table of Contents
-1. [Introduction](#introduction)
-2. [Hexapod mechanical design](#hexapod-(mechanical)-design)
+1. [Introduction](#1-introduction)
+2. [Hexapod mechanical design](#2-hexapod-mechanical-design)
 
 ## 1. Introduction
 
