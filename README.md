@@ -22,6 +22,13 @@ An interesting alternative to a serial chain is a [Klann linkage](https://en.wik
 
 ![Klann linkage](/Hardware/images/F1-positions.gif)
 
-This leg design has a tradeoff: only one actuator is required to extend and contract the leg, but the leg is much more mechanically complex. Also, two legs are coupled together by a common actuator, which constrains the set of possible gaits.
+This leg design has some tradeoffs:
+* Only one actuator is required to extend and contract the leg, but the leg is much more mechanically complex.
+* Also, two legs are coupled together by a common actuator, which constrains the set of possible gaits.
+* Torque/workspace: generally, parallel mechanisms have a smaller reachable workspace than serial mechanisms, but they are sturdier and faster within that workspace. However, parallel mechanisms behave more nonlinearly. This means that modeling torque requirements is less straightforward:
+  * on one hand, the legs can't extend as far, so the actuators might have greater mechanical advantage...
+  * ...but on the other hand, because of the complexity of the leg mechanism, there could be positions with great mechanical _disadvantage_ that require greater torque.
+* Kinematics: generally, the _forward kinematics_ problem (given the joint angles, what is the position/orientation of the end-effector) is straightforward and the _inverse kinematics_ problem (what joint positions are required for a given end-effector position/orientation) is challenging for serial manipulators, but for parallel manipulators, this is reversed: forward kinematics is challenging and inverse kinematics is easy.
+However, something cool is possible: if I treat various gaits as sequences of foot-ground contact points, gait realization becomes an inverse kinematics problem, which is easier with parallel mechanisms.
 
 An interesting side project would be to augment the Klan linkage with linear actuators to vary the link lengths. [This nifty tool](http://www.mechanicalspider.com/spiderinputs.html) shows how varying each link length affects the resulting path of a single leg. You can imagine developing a motion planner that sets a link length based on the required gait.
