@@ -24,7 +24,7 @@ An interesting alternative to a serial chain is a [Klann linkage](https://en.wik
 
 This leg design has some tradeoffs:
 * Only one actuator is required to extend and contract the leg, but the leg is much more mechanically complex.
-* Also, two legs are coupled together by a common actuator, which constrains the set of possible gaits.
+* Also, two legs are _typically_ coupled together by a common actuator, which would constrain the set of possible gaits. They don't have to be coupled, though. I think Klann did that to further reduce the number of actuators required to generate a gait.
 * Torque/workspace: generally, parallel mechanisms have a smaller reachable workspace than serial mechanisms, but they are sturdier and faster within that workspace. However, parallel mechanisms behave more nonlinearly. This means that modeling torque requirements is less straightforward:
   * on one hand, the legs can't extend as far, so the actuators might have greater mechanical advantage...
   * ...but on the other hand, because of the complexity of the leg mechanism, there could be positions with great mechanical _disadvantage_ that require greater torque.
