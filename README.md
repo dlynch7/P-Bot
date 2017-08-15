@@ -30,7 +30,9 @@ Currently, I am thinking of using the [EMAX ES08MA II Mini Metal Gear Analog ser
 #### Klann linkage
 An interesting alternative to a open-chain leg is a [Klann linkage](https://en.wikipedia.org/wiki/Klann_linkage), by [Joseph Klann](http://www.mechanicalspider.com):
 
-![Klann linkage](/Hardware/images/F1-positions.gif)
+<p img align="center">
+  <a href="/Hardware/images/F1-positions.gif"><img align="center" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/F1-positions.gif" width="640" ></a>
+</p>
 
 This leg design has some tradeoffs:
 * Only one actuator is required to extend and contract the leg, but the leg is much more mechanically complex.
