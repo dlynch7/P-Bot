@@ -61,9 +61,9 @@ Here is the physical version:
 _Singularities_ are possible, depending on link lengths. The three images below show the leg before, during, and after encountering a singularity. Notice how the leg switches configurations after the singularity. This is undesirable! Luckily, some planning and geometry can prevent singularities.
 
 <p img align="center">
-  <a href="/Hardware/images/klann_v0_kinemtics/pre_singularity.jpg"><img align="left" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/pre_singularity.jpg" width="300" ></a>
-  <a href="/Hardware/images/klann_v0_kinemtics/singularity.jpg"><img align="center" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/singularity.jpg" width="300" ></a>
-  <a href="/Hardware/images/klann_v0_kinemtics/post_singularity.jpg"><img align="right" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/post_singularity.jpg" width="300" ></a>
+  <a href="/Hardware/images/klann_v0_kinemtics/pre_singularity.jpg"><img align="left" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/pre_singularity.jpg" width="240" ></a>
+  <a href="/Hardware/images/klann_v0_kinemtics/singularity.jpg"><img align="center" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/singularity.jpg" width="240" ></a>
+  <a href="/Hardware/images/klann_v0_kinemtics/post_singularity.jpg"><img align="right" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/post_singularity.jpg" width="240" ></a>
 </p>
 
 Link collisions can also restrict the leg's workspace, as shown below where the first rocker arm collides with the base.
