@@ -45,6 +45,23 @@ An interesting side project would be to augment the Klann linkage with linear ac
 
 Here's a screenshot of version 0 of my Klann leg:
 
-![klann_mech_v0](/Hardware/CAD/images/klann_mech_v0/klann_mech_v0.JPG)
+![klann_mech_v0_CAD](/Hardware/CAD/images/klann_mech_v0/klann_mech_v0.JPG)
 
 I haven't worked out the kinematics yet, but I want to 3D-print a rough draft that I can play with; this will give me some intuition as I work through the math. STL files are [here](/Hardware/CAD/STL/klann_mech_v0/).
+
+Here is the physical version:
+
+![klann_mech_v0_physical](/Hardware/images/klann_v0_kinemtics/normal_position.jpg)
+
+##### Lessons from Klann leg v0:
+_Singularities_ are possible, depending on link lengths. The three images below show the leg before, during, and after encountering a singularity. Notice how the leg switches configurations after the singularity. This is undesirable!
+
+<p img align="center">
+  <a href="/Hardware/images/klann_v0_kinemtics/pre_singularity.jpg"><img align="left" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinemtics/pre_singularity.jpg" width="240" ></a>
+  <a href="/Hardware/images/klann_v0_kinemtics/singularity.jpg"><img align="center" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinemtics/singularity.jpg" width="240" ></a>
+  <a href="/Hardware/images/klann_v0_kinemtics/post_singularity.jpg"><img align="right" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinemtics/post_singularity.jpg" width="240" ></a>
+</p>
+
+Links collisions can also restrict the leg's workspace, as shown below where the first rocker arm collides with the base.
+
+![link_collision](/Hardware/images/klann_v0_kinemtics/link_collision.jpg)
