@@ -7,6 +7,7 @@ Repo for FPGA-based robot project. What can parallelism do for mobile robots?
     1. [Leg design](#leg-design)
         1. [Open-chain leg](#open-chain-leg)
         2. [Klann linkage](#klann-linkage)
+3. [Electronics](#electronics)
 
 ## 1. Introduction
 
@@ -73,3 +74,8 @@ Link collisions can also restrict the leg's workspace, as shown below where the 
 <p img align="center">
   <a href="/Hardware/images/klann_v0_kinematics/link_collision.jpg"><img align="center" src="https://raw.githubusercontent.com/dlynch7/P-Bot/master/Hardware/images/klann_v0_kinematics/link_collision.jpg" width="480" ></a>
 </p>
+
+## 3. Electronics
+My servos arrived! Depending on the leg design, I could be running up to 18 of them, so I need to figure out how to power all the servos, the FPGA dev board, and an Arduino or a PIC32, and still have enough power left over for some sensors. Servos can draw a lot of current, so this power supply needs to be pretty beefy. In a perfect world, there's a power supply small and light enough to mount to the hexapod frame that still delivers enough juice. Let the search begin!
+
+If I have devices that require different voltages, I'll also need to look into DC-DC converters.
