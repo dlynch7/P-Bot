@@ -7,7 +7,7 @@ Repo for FPGA-based robot project. What can parallelism do for mobile robots?
     1. [Leg design](#leg-design)
         1. [Open-chain leg](#open-chain-leg)
         2. [Klann linkage](#klann-linkage)
-3. [Electronics](#electronics)
+3. [Electronics](#3-electronics)
 
 ## 1. Introduction
 
