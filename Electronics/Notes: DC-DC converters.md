@@ -24,12 +24,28 @@ References:
 6. [Conclusions](#6-conclusions)
 
 ## 1 Introduction
+Broadly, there are two methods of DC-DC conversion:
+1. Linear voltage conversion
+2. Switched-mode DC-DC conversion
+
+The first method (linear voltage conversion) is simple, which "makes it suitable for monolithic integration in non-critical applications", but it is less efficient than the second method (switched-mode conversion), which comprises two sub-methods:
+    1. Charge-pump DC-DC converters
+    2. Inductive type DC-DC converters
+
+As their names suggest, these two sub-methods involve capacitors, inductors, and combinations of both.
 
 ## 2 Linear Voltage Converters
+These converters are resistive voltage dividers. They reduce voltage "by dissipating the excess power into a resistor". Consequently, they can only reduce voltage, never increase it. Because they dissipate electrical power as heat, they are inefficient. Also, the amount of power they can dissipate as heat is limited by their thermal properties
+
+There are two types of linear voltage converters: series converters and shunt converters.
 
 ### 2.1 Series Converters
+Series converters are voltage dividers which use a feedback-controlled variable resistor as the upper resistor in the divider. Figure 2.1 of reference 1 gets the idea across clearly.
 
 ### 2.2 Shunt Converters
+<some stuff about shunt converters>
+
+While linear voltage converters perform poorly compared to switched-mode converters, they are often used for start-up.
 
 ## 3 Charge-Pump DC-DC Converters
 
