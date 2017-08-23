@@ -36,7 +36,7 @@ The first method (linear voltage conversion) is simple, which "makes it suitable
 As their names suggest, these two sub-methods involve capacitors, inductors, and combinations of both.
 
 ## 2 Linear Voltage Converters
-These converters are resistive voltage dividers. They reduce voltage "by dissipating the excess power into a resistor". Consequently, they can only reduce voltage, never increase it. Because they dissipate electrical power as heat, they are inefficient. Also, the amount of power they can dissipate as heat is limited by their thermal properties
+These converters are resistive voltage dividers. They reduce voltage "by dissipating the excess power into a resistor". Consequently, they can only reduce voltage, never increase it. Because they dissipate electrical power as heat, they are inefficient. Also, the amount of power they can dissipate as heat is limited by their thermal properties, so heatsinking must also be considered.
 
 There are two types of linear voltage converters: series converters and shunt converters.
 
