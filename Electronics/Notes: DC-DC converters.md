@@ -16,7 +16,7 @@ References:
     3. [Series-Parallel Step-Up Converter](#3.3-series-parallel-step-up-converter)
 4. [Inductive Type DC-DC Converters](#4-inductive-type-dc-dc-converters)
     1. [On Inductors](#4.1-on-inductors)
-    2. [Inductors & Capacitors: The Combination](#4.2-inductors-&-capacitors:-the-combination)
+    2. [Inductors and Capacitors: The Combination](#4.2-inductors-and-capacitors:-the-combination)
     3. [Reflections on Steady-State Calculation Methods](#4.3-reflections-on-steady-state-calculation-methods)
 5. [INTERMEZZO: The Efficiency Enhancement Factor](#5-intermezzo-the-efficiency-enhancement-factor)
     1. [The Concept](#5.1-the-concept)
@@ -43,7 +43,7 @@ References:
 
 ### 4.1 On Inductors
 
-### 4.2 Inductors & Capacitors: The Combination
+### 4.2 Inductors and Capacitors: The Combination
 
 ### 4.3 Reflections on Steady-State Calculation Methods
 
