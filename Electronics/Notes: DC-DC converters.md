@@ -19,7 +19,7 @@ References:
     2. [Combining Inductors And Capacitors](#42-combining-inductors-and-capacitors)
     3. [Reflections on Steady-State Calculation Methods](#43-reflections-on-steady-state-calculation-methods)
 5. [Efficiency Enhancement Factor](#5-efficiency-enhancement-factor)
-    1. [The Concept](#51-the-concept)
+    1. [Concept](#51-concept)
     2. [Interpretations](#52-interpretations)
 6. [Conclusions](#6-conclusions)
 
@@ -73,11 +73,15 @@ As before, these two phases repeat at the _switching frequency_.
 The output voltage is limited to _twice the input voltage_.
 
 ## 4 Inductive Type DC-DC Converters
-This type of converter employs both inductors (or sometimes transformers) and capacitors. Unlike capacitor charging, inductor charging is not lossy.
+This type of converter employs both inductors (or sometimes transformers) and capacitors. Unlike capacitor charging, ideal inductor charging is not lossy (of course it is, for non-ideal inductors).
 
 ### 4.1 On Inductors
+An ideal inductor has zero resistance, but a non-ideal inductor has some resistance and can be modeled as an ideal inductor in series with a resistor. Charging efficiency is greatest when charging time is minimized, because electrical energy is dissipated thermally through the inductor at a constant rate. Of course, as charging time approaches zero, the energy stored in the inductor also approaches zero, so there is a trade-off. Initial current through the inductor should be as close to zero as possible in order to maximize charging efficiency.
 
 ### 4.2 Combining Inductors And Capacitors
+The previous section showed that inductors are superior to capacitors for energy storage. Nevertheless, switching required for charging and discharging generates ripples in the output voltage, which requires a filter capacitor. Because no inductor is ideal, the circuit models a non-ideal inductor by placing a resistor in series with the inductor. The resulting circuit is a series RLC circuit, which is described by a 2nd-order ordinary differential equation whose solution can be overdamped, critically damped, or underdamped. Unlike the previous converter circuits, this RLC circuit can reach 100% efficiency when the parasitic resistance R is 0.
+
+From reference 1: "ideal inductive DC-DC converters are able to achieve power conversion efficiencies of 100% for their entire voltage conversion ratio range."
 
 ### 4.3 Reflections on Steady-State Calculation Methods
 
@@ -88,10 +92,9 @@ This type of converter employs both inductors (or sometimes transformers) and ca
 #### Continuous-Discontinuous Boundary
 
 ## 5 Efficiency Enhancement Factor
+When comparing efficiencies of various DC-DC converters, their voltage conversion ratios must be taken into account. From reference 1, "the Efficiency Enhancement Factor (EEF) allows comparison in terms of power conversion efficiency that is independent of the voltage conversion ratio."
 
-"The Efficiency Enhancement Factor (EEF) allows comparison in terms of power conversion efficiency that is independent of the voltage conversion ratio."
-
-### 5.1 The Concept
+### 5.1 Concept
 
 ### 5.2 Interpretations
 
