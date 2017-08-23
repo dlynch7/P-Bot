@@ -95,6 +95,7 @@ From reference 1: "ideal inductive DC-DC converters are able to achieve power co
 When comparing efficiencies of various DC-DC converters, their voltage conversion ratios must be taken into account. From reference 1, "the Efficiency Enhancement Factor (EEF) allows comparison in terms of power conversion efficiency that is independent of the voltage conversion ratio."
 
 ### 5.1 Concept
+EEF is 1 minus the ratio of linear efficiency to switching efficiency, where both efficiencies are evaluated at the switching voltage conversion ratio. Therefore, positive EEF is good and negative EEF is bad.
 
 ### 5.2 Interpretations
 
