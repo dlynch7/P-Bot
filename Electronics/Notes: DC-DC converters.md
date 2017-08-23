@@ -18,7 +18,7 @@ References:
     1. [On Inductors](#41-on-inductors)
     2. [Combining Inductors And Capacitors](#42-combining-inductors-and-capacitors)
     3. [Reflections on Steady-State Calculation Methods](#43-reflections-on-steady-state-calculation-methods)
-5. [INTERMEZZO: The Efficiency Enhancement Factor](#5-intermezzo-the-efficiency-enhancement-factor)
+5. [Efficiency Enhancement Factor](#5-efficiency-enhancement-factor)
     1. [The Concept](#51-the-concept)
     2. [Interpretations](#52-interpretations)
 6. [Conclusions](#6-conclusions)
@@ -87,7 +87,7 @@ This type of converter employs both inductors (or sometimes transformers) and ca
 
 #### Continuous-Discontinuous Boundary
 
-## 5 INTERMEZZO: The Efficiency Enhancement Factor
+## 5 Efficiency Enhancement Factor
 
 "The Efficiency Enhancement Factor (EEF) allows comparison in terms of power conversion efficiency that is independent of the voltage conversion ratio."
 
