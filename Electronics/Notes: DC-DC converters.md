@@ -10,7 +10,7 @@ References:
 2. [Linear Voltage Converters](#2-linear-voltage-converters)
     1. [Series Converters](#21-series-converters)
     2. [Shunt Converters](#22-shunt-converters)
-3. [Charge-Pump DC-DC Converters](3-charge-pump-dc-dc-converters)
+3. [Charge-Pump DC-DC Converters](#3-charge-pump-dc-dc-converters)
     1. [On Capacitors](#31-on-capacitors)
     2. [Series-Parallel Step-Down Converter](#32-series-parallel-step-down-converter)
     3. [Series-Parallel Step-Up Converter](#33-series-parallel-step-up-converter)
@@ -20,7 +20,7 @@ References:
     3. [Reflections on Steady-State Calculation Methods](#43-reflections-on-steady-state-calculation-methods)
 5. [INTERMEZZO: The Efficiency Enhancement Factor](#5-intermezzo-the-efficiency-enhancement-factor)
     1. [The Concept](#51-the-concept)
-    2. [The Interpretations](#52-the-interpretations)
+    2. [Interpretations](#52-interpretations)
 6. [Conclusions](#6-conclusions)
 
 ## 1 Introduction
@@ -29,7 +29,7 @@ References:
 
 ### 2.1 Series Converters
 
-### 2.2 Shunt Converter
+### 2.2 Shunt Converters
 
 ## 3 Charge-Pump DC-DC Converters
 
@@ -43,7 +43,7 @@ References:
 
 ### 4.1 On Inductors
 
-### 4.2 Inductors and Capacitors: The Combination
+### 4.2 Combining Inductors And Capacitors
 
 ### 4.3 Reflections on Steady-State Calculation Methods
 
