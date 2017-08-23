@@ -29,6 +29,7 @@ Broadly, there are two methods of DC-DC conversion:
 2. Switched-mode DC-DC conversion
 
 The first method (linear voltage conversion) is simple, which "makes it suitable for monolithic integration in non-critical applications", but it is less efficient than the second method (switched-mode conversion), which comprises two sub-methods:
+
     1. Charge-pump DC-DC converters
     2. Inductive type DC-DC converters
 
