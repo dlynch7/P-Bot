@@ -80,4 +80,4 @@ Link collisions can also restrict the leg's workspace, as shown below where the 
 ## 3. Electronics
 My servos arrived! Depending on the leg design, I could be running up to 18 of them, so I need to figure out how to power all the servos, the FPGA dev board, and an Arduino or a PIC32, and still have enough power left over for some sensors. Servos can draw a lot of current, so this power supply needs to be pretty beefy. In a perfect world, there's a power supply small and light enough to mount to the hexapod frame that still delivers enough juice. Let the search begin!
 
-If I have devices that require different voltages, I'll also need to look into [DC-DC converters](/Electronics/Notes: DC-DC converters.md). I may also have to consider [filter/decoupling capacitors](http://www.vagrearg.org/content/decoupling).
+If I have devices that require different voltages, I'll also need to look into [DC-DC converters](P-Bot/Electronics/Notes: DC-DC converters.md). I may also have to consider [filter/decoupling capacitors](http://www.vagrearg.org/content/decoupling).
