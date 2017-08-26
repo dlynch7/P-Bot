@@ -26,7 +26,9 @@ Open-chain linkages are very straightforward: each link is followed distally by 
 
 Based on the static analysis [here](http://www.robotshop.com/blog/en/robot-leg-torque-tutorial-3587), I wrote a simple [MATLAB/Octave program](/Hardware/torque_calc.m) to calculate the torque required per servo for quasi-static motion, given the masses and lengths of the robot's legs and torso.
 
-Currently, I am thinking of using the [EMAX ES08MA II Mini Metal Gear Analog servo](https://www.aliexpress.com/item/Free-shipping-100-orginal-4x-EMAX-ES08MA-II-Mini-Metal-Gear-Analog-Servo-12g-2-0kg/1708746840.html?spm=2114.search0104.3.60.zGgXDn&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10065_10151_10068_10130_10307_10137_10060_10155_10154_5370011_10056_10055_10054_10059_100031_10099_5400020_5410011_10103_10102_5430011_10052_10053_10142_10107_10050_10051_5380020_5390020_10084_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_10312_10313_10314_10315_10316_10078_10079_10073_5420011-10050,searchweb201603_5,ppcSwitch_5&btsid=4bdcc2a4-2bf1-4f49-91d5-c31a77f9120e&algo_expid=06897d5a-ac7b-4e40-b174-da471e17ec38-7&algo_pvid=06897d5a-ac7b-4e40-b174-da471e17ec38&transAbTest=ae803_3).
+I am using the [EMAX ES08MA II Mini Metal Gear Analog servo](https://www.aliexpress.com/item/Free-shipping-100-orginal-4x-EMAX-ES08MA-II-Mini-Metal-Gear-Analog-Servo-12g-2-0kg/1708746840.html?spm=2114.search0104.3.60.zGgXDn&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10065_10151_10068_10130_10307_10137_10060_10155_10154_5370011_10056_10055_10054_10059_100031_10099_5400020_5410011_10103_10102_5430011_10052_10053_10142_10107_10050_10051_5380020_5390020_10084_10083_10080_10082_10081_10178_10110_10111_10112_10113_10114_10312_10313_10314_10315_10316_10078_10079_10073_5420011-10050,searchweb201603_5,ppcSwitch_5&btsid=4bdcc2a4-2bf1-4f49-91d5-c31a77f9120e&algo_expid=06897d5a-ac7b-4e40-b174-da471e17ec38-7&algo_pvid=06897d5a-ac7b-4e40-b174-da471e17ec38&transAbTest=ae803_3).
+
+The ES08MA runs at 4.8V - 6V
 
 #### Klann linkage
 An interesting alternative to a open-chain leg is a [Klann linkage](https://en.wikipedia.org/wiki/Klann_linkage), by [Joseph Klann](http://www.mechanicalspider.com):
@@ -78,4 +80,4 @@ Link collisions can also restrict the leg's workspace, as shown below where the 
 ## 3. Electronics
 My servos arrived! Depending on the leg design, I could be running up to 18 of them, so I need to figure out how to power all the servos, the FPGA dev board, and an Arduino or a PIC32, and still have enough power left over for some sensors. Servos can draw a lot of current, so this power supply needs to be pretty beefy. In a perfect world, there's a power supply small and light enough to mount to the hexapod frame that still delivers enough juice. Let the search begin!
 
-If I have devices that require different voltages, I'll also need to look into DC-DC converters.
+If I have devices that require different voltages, I'll also need to look into [DC-DC converters](/Electronics/Notes: DC-DC converters.md). I may also have to consider [filter/decoupling capacitors](http://www.vagrearg.org/content/decoupling).
